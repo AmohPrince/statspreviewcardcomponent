@@ -37,11 +37,14 @@
 }
 .App__right {
   width: 50%;
+  background: hsl(277, 64%, 61%);
 }
 img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  mix-blend-mode: multiply;
+  opacity: 75%;
 }
 
 @media screen and (max-width: 1150px) {
